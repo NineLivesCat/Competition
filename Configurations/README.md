@@ -1,26 +1,43 @@
-# Configurations
+# Introduction
 
-* Configurations files for chibios 19.1
-* MCU type STM32F429BIT6
+* This directory is an demo configuration files for `chibios19.1` Other project should keep project structure the same as this configuration files
 
 # Author
 
-* NineLivesCat(esdcasdcd@126.com)
+* NineLivesCat
 
 # Structure
 
-* board:    configurations files for board (unfinished)
-* cfg:      configurations files for hal, ch and mcu(unfinished)
-* os:       chibios
-* src:      source files and header
-* tools:    required environment and some tools
-* Makefile: main makefile for whole project
+* core      :    core library
+    * chibios       :   chibios19.1.0
+    * inc           :   shared header
+    * src           :   shared code
+    * syscfg.mk     :   system configuration makefile rule
+    * oscfg.mk      :   chibios configuration makefile rule
+    * STM32F429.ld  :   STM32F429 ld file
+* inc       :   header
+* src       :   code
+* tool      :   some tool for user
+    * ChibiOS_19.1.0            :   original chibios file
+    * fmpp                      :   fmpp tool
+    * ftl                       :   ftl file
+    * GNU Tools                 :   GNU tools for windows
+    * GNU Tools ARM Embedded    :   Toolchain for windows
+    * mk                        :   automake rule
+    * updater                   :   updater
+* Makefile  :   personal makefile
+* README.md :   this file
 
 # Todo
 
-* finish configuration files
+* Test
 
-# Configure environment
+# Update
+
+* 2019/6/23   By:NLC        Refactor project and finish configuration
+* 2019/2/20   By:NLC        Initialization
+
+# Configure Environment
 
 ## For Linux (tested on Ubuntu 18.04)
 
@@ -62,6 +79,3 @@
 * if `build` directory and `*.elf` is created, the environment is configured well
 * (optional) download VSCode and buy a Jlink for better coding and debugging
 
-# Update
-
-* 2019/2/20   By:NLC      Initialization

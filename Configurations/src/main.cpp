@@ -1,7 +1,9 @@
-#include "ch.h"
-#include "hal.h"
+#include "board.h"
 
 int main()
 {
+    while (true)
+    {
+    }
     return 0;
 }
