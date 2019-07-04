@@ -84,7 +84,7 @@ ifeq ($(USE_EXCEPTIONS_STACKSIZE),)
   USE_EXCEPTIONS_STACKSIZE = 0x400
 endif
 
-# Enables the use of FPU (no, softfp, hard).
+# Stack size to the allocated to the Cortex-M main/exceptions stack
 ifeq ($(USE_FPU),)
   USE_FPU = no
 endif

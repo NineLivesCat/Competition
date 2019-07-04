@@ -10,13 +10,11 @@
 
 * core      :    core library
     * chibios       :   chibios19.1.0
-    * inc           :   shared header
-    * src           :   shared code
+    * source        :   shared header and code
     * syscfg.mk     :   system configuration makefile rule
     * oscfg.mk      :   chibios configuration makefile rule
     * STM32F429.ld  :   STM32F429 ld file
-* inc       :   header
-* src       :   code
+* source       :   header and code
 * tool      :   some tool for user
     * ChibiOS_19.1.0            :   original chibios file
     * fmpp                      :   fmpp tool
@@ -34,8 +32,9 @@
 
 # Update
 
-* 2019/6/23   By:NLC        Refactor project and finish configuration
-* 2019/2/20   By:NLC        Initialization
+* 2019/7/4      By:NLC          merge inc and src
+* 2019/6/23     By:NLC          Refactor project and finish configuration
+* 2019/2/20     By:NLC          Initialization
 
 # Configure Environment
 
