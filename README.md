@@ -9,6 +9,9 @@ this repository is using for preparing a multi-school competition
 # Structure
 
 * chibiosCfg        :       Configurations files for chibios and shared library, for more information please reffer to [README.md](chibiosCfg/README.md)
+* GNU               :       GNU tools and toolchain    
+    * GNU Tools                 :   GNU tools for windows
+    * GNU Tools ARM Embedded    :   Toolchain for windows
 * README.md         :       This file
 
 # Todo

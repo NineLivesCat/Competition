@@ -19,8 +19,6 @@
     * ChibiOS_19.1.0            :   original chibios file
     * fmpp                      :   fmpp tool
     * ftl                       :   ftl file
-    * GNU Tools                 :   GNU tools for windows
-    * GNU Tools ARM Embedded    :   Toolchain for windows
     * mk                        :   automake rule
     * updater                   :   updater
 * Makefile  :   personal makefile
@@ -28,13 +26,13 @@
 
 # Todo
 
-* Test
+* nothing currently
 
 # Update
 
+* 2019/7/11     By:NLC          remove todo list
 * 2019/7/4      By:NLC          merge inc and src
 * 2019/6/23     By:NLC          Refactor project and finish configuration
-* 2019/2/20     By:NLC          Initialization
 
 # Configure Environment
 
@@ -65,7 +63,7 @@
 ## For Windows
 
 * download configurations flies
-* copy `./tools/fmpp`(ues`{FMPP_Directory}` to represent its directory below), `./tools/GNU Tools`(ues`{GNUTOOLS_Directory}` to represent its directory below) and `./tools/GNU Tools for ARM Embedded`(ues`{ARMTOOLS_Directory}` to represent its directory below) to another directory
+* copy `./tools/fmpp`(ues`{FMPP_Directory}` to represent its directory below), `../GNU/GNU Tools`(ues`{GNUTOOLS_Directory}` to represent its directory below) and `../GNU/GNU Tools for ARM Embedded`(ues`{ARMTOOLS_Directory}` to represent its directory below) to another directory
 * install `JDK` ,configure the system environment and restart computer 
 * run cmd or powershell enter `java -version` to check if JDK is installed
 * add `{FMPP_Directory}/fmpp/bin` 
